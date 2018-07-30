@@ -22,5 +22,6 @@ module AlphaBlog
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
+    #Adding for possible fix to deploy assets to heroku. - JC - 07/30/18
   end
 end
