@@ -23,6 +23,6 @@ module AlphaBlog
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
     #Adding for possible fix to deploy assets to heroku. - JC - 07/30/18 source => https://stackoverflow.com/questions/19650621/heroku-upload-precompiling-assets-failed
-    config.assets.initialize_on_precompile = false
+    #config.assets.initialize_on_precompile = false
   end
 end
