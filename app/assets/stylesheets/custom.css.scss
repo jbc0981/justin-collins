@@ -1,2 +1,97 @@
+$navbar-default-bg: #408000;
+
 @import "bootstrap-sprockets";
 @import "bootstrap";
+
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#logo:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.center {
+  text-align: center;
+}
+
+.jumbotron {
+  background-image: asset-url("Birmingham_header_11_4_16.JPG");
+  background-size: cover;
+  height: 550px;
+}
+
+.jumbotron h1 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 330px;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+
+.btn-xlarge {
+  font-size: 1.7em;
+  background-color: #408000;
+  color: #fff;
+}
+
+.btn-xlarge:hover, .btn-xlarge:focus {
+    text-decoration: none;
+    background-color: #bfff80;
+}
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a:hovr {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
+.navbar-default .navbar-nav li a {
+  color: #fff;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  color: black;
+}
+
+.navbar-default .navbar-nav > .open {
+    background-color: #59b300;
+}
+
+.dropdown-menu {
+  background-color: #59b300;
+}
+
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+    text-decoration: none;
+    background-color: #bfff80;
+}
+
+.navbar-default .navbar-nav > .open > a:focus {
+    background-color: #59b300;
+    color: #000;
+}
