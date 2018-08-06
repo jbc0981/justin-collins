@@ -1,4 +1,4 @@
-$navbar-default-bg: #408000;
+$navbar-default-bg: #000;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -36,13 +36,13 @@ $navbar-default-bg: #408000;
 
 .btn-xlarge {
   font-size: 1.7em;
-  background-color: #408000;
+  background-color: #000;
   color: #fff;
 }
 
 .btn-xlarge:hover, .btn-xlarge:focus {
     text-decoration: none;
-    background-color: #bfff80;
+    background-color: #bfbfbf;
 }
 
 .article-actions {
@@ -94,23 +94,28 @@ footer ul li {
 }
 
 .navbar-default .navbar-nav li a:hover {
-  color: black;
+  color: #bfbfbf;
+}
+
+.navbar-default .navbar-nav li.dropdown-item a:hover {
+  color: #000;
 }
 
 .navbar-default .navbar-nav > .open {
-    background-color: #59b300;
+    background-color: #bfbfbf;
+    color: #000;
 }
 
 .dropdown-menu {
-  background-color: #59b300;
+  background-color: #000000;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
-    background-color: #bfff80;
+    background-color: #bfbfbf;
+    color: #000;
 }
 
 .navbar-default .navbar-nav > .open > a:focus {
-    background-color: #59b300;
-    color: #000;
+    color: #bfbfbf;
 }
