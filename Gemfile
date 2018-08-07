@@ -22,6 +22,9 @@ gem 'jbuilder', '~> 2.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
+# used for PDF rendering - JC - source: https://github.com/senny/pdfjs_viewer-rails
+gem 'pdfjs_viewer-rails'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -81,6 +81,10 @@ GEM
     multi_json (1.13.1)
     nokogiri (1.8.4)
       mini_portile2 (~> 2.3.0)
+    pdfjs_viewer-rails (0.2.0)
+      json (> 1.8.4)
+      rails (> 4.2.0)
+      sass-rails (~> 5.0)
     pg (0.21.0)
     rack (1.6.10)
     rack-test (0.6.3)
@@ -168,6 +172,7 @@ DEPENDENCIES
   coffee-rails (~> 4.2.2)
   jbuilder (~> 2.0)
   jquery-rails
+  pdfjs_viewer-rails
   pg (~> 0.11)
   rails (= 4.2.8)
   rails_12factor
