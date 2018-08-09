@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :examples
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
@@ -6,6 +7,7 @@ Rails.application.routes.draw do
   # root 'welcome#index'
   root 'pages#home'
   get 'about', to: 'pages#about'
+  get 'contact', to: 'pages#contact'
   
   resources :articles
   # Example of regular route:

@@ -1,4 +1,4 @@
-$navbar-default-bg: #4d6619;
+$navbar-default-bg: #333A56;
 
 @import "bootstrap-sprockets";
 @import "bootstrap";
@@ -6,14 +6,18 @@ $navbar-default-bg: #4d6619;
 #logo {
   float: left;
   font-size: 1.7em;
-  color: #222;
+  color: #e8e8e8;
   text-transform: uppercase;
   letter-spacing: -1px;
   font-weight: bold;
 }
 #logo:hover {
-  color: #222;
+  color: #F7F5E6;
   text-decoration: none;
+}
+
+#application-body-container {
+  height: 100%;
 }
 
 .page-header {
@@ -77,8 +81,8 @@ footer {
 }
 
 footer a:hover {
-  color: #fff;
-  text-decoration: none;
+  /* color: #fff; */
+  text-decoration: underline;
 }
 
 footer a {
@@ -100,39 +104,40 @@ footer ul li {
 }
 
 .navbar-default .navbar-nav li a {
-  color: #222;
+  color: #e8e8e8;
 }
 
 .navbar-default .navbar-nav li a:hover {
-  color: #c3c388;
+  color: #F7F5E6;
 }
 
 .navbar-default .navbar-nav li.dropdown-item a:hover {
-  color: #222;
+  color: #333A56;
 }
 
 .navbar-default .navbar-nav > .open {
-    background-color: #c3c388;
-    color: #222;
+    background-color: #F7F5E6;
+    color: #333A56;
 }
 
 .dropdown-menu {
-  background-color: #8ab82e;
+  background-color: #52658F;
 }
 
 .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
     text-decoration: none;
-    background-color: #c3c388;
-    color: #222;
+    background-color: #F7F5E6;
+    color: #333A56;
 }
 
 .navbar-default .navbar-nav > .open > a:focus {
-    color: #c3c388;
+    color: #F7F5E6;
 }
 
 body {
-  background: asset-url("light-wood-background.jpg") fixed;
-  background-size: cover;
+  /* background: asset-url("light-wood-background.jpg") fixed;
+  background-size: cover; */
+  background-color: #e8e8e8;
 }
 
 body.noScroll {
