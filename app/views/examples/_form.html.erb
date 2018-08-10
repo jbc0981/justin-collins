@@ -5,7 +5,7 @@
     <%= form_for(@example, :html => {class: "form-horizontal", role: "form"}) do |f| %>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :name %>
+          <strong>Application Name:</strong>
         </div>
         <div class='col-sm-8'>
           <%= f.text_field :name, class: "form-control", placeholder: "Name of Application", autofocus: true %>
@@ -13,26 +13,26 @@
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :url %>
+          <strong>URL:</strong>
         </div>
         <div class='col-sm-8'>
-          <%= f.text_area :url, rows: 10, class: "form-control", placeholder: "Application URL", autofocus: true %>
+          <%= f.text_field :url, rows: 10, class: "form-control", placeholder: "URL", autofocus: true %>
         </div>
       </div>
       <div class='form-group'>
-        <div class='control-label col-sm-2'>
-          <%= f.label :description %>
-        </div>
-        <div class='col-sm-8'>
-          <%= f.text_area :description, rows: 10, class: "form-control", placeholder: "Application Description", autofocus: true %>
-        </div>
+      <div class='control-label col-sm-2'>
+        <strong>GitHub URL:</strong>
+      </div>
+      <div class='col-sm-8'>
+        <%= f.text_field :giturl, rows: 10, class: "form-control", placeholder: "GitHub URL", autofocus: true %>
+      </div>
       </div>
       <div class='form-group'>
         <div class='control-label col-sm-2'>
-          <%= f.label :giturl %>
+          <strong>Description:</strong>
         </div>
         <div class='col-sm-8'>
-          <%= f.text_area :giturl, rows: 10, class: "form-control", placeholder: "Application GitHub URL", autofocus: true %>
+          <%= f.text_area :description, rows: 10, class: "form-control", placeholder: "Add a description for this application.", autofocus: true %>
         </div>
       </div>
       <div class="form-group">
