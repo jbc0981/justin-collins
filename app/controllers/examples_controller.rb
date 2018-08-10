@@ -45,6 +45,6 @@ class ExamplesController < ApplicationController
       @example = Example.find(params[:id])
     end
     def example_params
-      params.require(:example).permit(:name, :url)
+      params.require(:example).permit(:name, :url, :giturl, :description)
     end
 end

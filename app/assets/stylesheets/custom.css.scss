@@ -30,8 +30,8 @@ $navbar-default-bg: #333A56;
 }
 
 .jumbotron {
-  background-image: asset-url("Birmingham_header_11_4_16.JPG");
-  background-size: cover;
+  background-image: asset-url("JcChampion_Small.JPG");
+  background-size: a;
   height: 550px;
 }
 
@@ -41,6 +41,10 @@ $navbar-default-bg: #333A56;
   margin-bottom: 330px;
   letter-spacing: -1px;
   font-weight: bold;
+}
+
+img.pull-left {
+  padding-right: 15px;
 }
 
 .btn-xlarge {
