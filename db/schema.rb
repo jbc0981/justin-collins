@@ -13,20 +13,20 @@
 
 ActiveRecord::Schema.define(version: 20180810013227) do
 
-  create_table "Examples", force: :cascade do |t|
+  create_table "articles", force: :cascade do |t|
+    t.string   "title"
+    t.text     "description"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  create_table "examples", force: :cascade do |t|
     t.string   "name"
     t.string   "url"
     t.datetime "created_at",  null: false
     t.datetime "updated_at",  null: false
     t.string   "giturl"
     t.text     "description"
-  end
-
-  create_table "articles", force: :cascade do |t|
-    t.string   "title"
-    t.text     "description"
-    t.datetime "created_at"
-    t.datetime "updated_at"
   end
 
 end
