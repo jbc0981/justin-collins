@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :users, execpt: [:new]
   resources :examples
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
@@ -8,6 +9,10 @@ Rails.application.routes.draw do
   root 'pages#home'
   get 'about', to: 'pages#about'
   get 'contact', to: 'pages#contact'
+  get 'signup', to: 'users#new'
+  get 'login', to: 'sessions#new'
+  post 'login', to: 'sessions#create'
+  delete 'logout', to: 'sessions#destroy'
   
   resources :articles
   # Example of regular route:
