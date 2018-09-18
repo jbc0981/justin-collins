@@ -18,8 +18,8 @@
         <td><%= truncate(example.description, length: 50) %></td>
         <td><a href="<%= example.url %>" target="_blank" ><%= example.url %></a></td>
         <td><a href="<%= example.giturl %>" target="_blank" ><%= example.giturl %></a></td>
-        <td align="right"><%= link_to 'Edit', edit_example_path(example), class: "btn btn-sm btn-primary" %>
-        <%= link_to "Delete", example_path(example), method: :delete, data: {confirm: "Are you sure you want to delete this Example Application?"}, class: "btn btn-sm btn-danger" %></td>
+          <td align="right"><%= link_to 'Edit', edit_example_path(example), class: "btn btn-sm btn-primary" %>
+          <%= link_to "Delete", example_path(example), method: :delete, data: {confirm: "Are you sure you want to delete this Example Application?"}, class: "btn btn-sm btn-danger" %></td>
       </tr>
     <% end %>
   </table>
