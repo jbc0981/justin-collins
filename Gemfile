@@ -25,6 +25,9 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # used for PDF rendering - JC - source: https://github.com/senny/pdfjs_viewer-rails
 gem 'pdfjs_viewer-rails'
 
+# used for CDN assets - JC - source: https://ricostacruz.com/til/rails-and-cloudfront 
+gem 'rack-cors'
+
 # Use ActiveModel has_secure_password
 gem 'bcrypt', '~> 3.1.7'
 
